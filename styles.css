@@ -1,0 +1,63 @@
+/*reset*/
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*delete me before delivery
+    border: 1px solid gray;*/
+}
+
+html {
+    background-color: skyblue;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+form {
+    text-align: center;
+}
+
+.search-bar {
+    display: block;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding-left: 1rem;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: solid gray 2px;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section .search-results ul li .vid-pics {
+    width: 100%;
+}
+
+results
